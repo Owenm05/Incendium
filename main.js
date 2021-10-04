@@ -3,9 +3,9 @@ var money=0,fire=0,firePrice=0.5,decisionLevel=0,decisionCost=10,upgradeFirePric
 
 // When Buy Shop button is pressed at start of the game, this triggers.
 function buyShop() {
-    var start = prompt("Oh! It Does Not Look Like You Have Any Money! Here, I'll give you a loan! Is 1000 okay, or would you like 50000?");
+    var start = prompt("Oh! It Does Not Look Like You Have Any Money! Here, I'll give you a loan! Is 1000 okay?");
     //checks what the user said
-    if(start === "1000"){
+    if(start === "yes"){
         alert("Great!");
 alert("OK Then! Let's Get Started!");
             document.getElementById("buyShop").className += " hidden";
