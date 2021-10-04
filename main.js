@@ -65,9 +65,9 @@ function decisionUpgrade(){
             document.getElementById("upgradeButtonAPI").className = "";
             document.getElementById("hireWizard").className = "";
         }
-        if(decisionLevel === 3){
+        if(decisionLevel === 5){
             alert("lets take it up a notch!");
-            decisionCost = 100000;
+            decisionCost = 1000000;
             document.getElementById("upgradedificulty").className = "";
         }
         decisionLevel += 1;
