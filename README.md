@@ -7,7 +7,7 @@ original Developed and Coded by Sparticle999
 
 Suggestions and pull requests greatly appreciated
 
-If there are any errors or places where I could be more compact please say so
+If there are any errors or places where I could redo please tell me
 
 Thanks for playing
 
