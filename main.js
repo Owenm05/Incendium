@@ -7,7 +7,7 @@ function buyShop() {
     //checks what the user said
     if(loanChoice === "1000"){
         var loanChoice2 = prompt("Great! And When Would You Like To Pay Off The Loan? ASAP or Never?");
-        if(loanChoice2 === "ASAP"){
+        if(loanChoice2 === "Asap"){
             alert("OK Then! Let's Get Started!");
             document.getElementById("buyShop").className += " hidden";
             document.getElementById("background").className = "whiteBackground";
@@ -24,7 +24,7 @@ function buyShop() {
         }
         //If user typed something not expected.
         else{
-            alert("That Was Not An Option! Please Try Again!");
+            alert("That Was Not An Option! Please Try again!");
             return;
         }
     }
@@ -75,6 +75,11 @@ function decisionUpgrade(){
             decisionCost = 10000;
             document.getElementById("upgradeButtonAPI").className = "";
             document.getElementById("hireWizard").className = "";
+        }
+        if(decisionLevel === 3){
+            alert("lets take it up a notch!");
+            decisionCost = 100000;
+            document.getElementById("upgradedificulty").className = "";
         }
         decisionLevel += 1;
         refreshMoney();
