@@ -2,7 +2,8 @@
 
 Developed and Coded by Sparticle999
 
-[Game link](http://sparticle999.github.io/Minergy2/)
+origional [Game link](http://sparticle999.github.io/Minergy2/)
+my version 
 
 [Reddit Page]() (To Be Added)
 
