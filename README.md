@@ -2,7 +2,7 @@
 
 Developed and Coded by Sparticle999
 
- [sparticle's](http://sparticle999.github.io/Minergy2/)
+ [sparticle's](http://sparticle999.github.io/Minergy2/) ,
  [my version](http://owenm05.github.io/Incendium/)
 
 
