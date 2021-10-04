@@ -3,12 +3,11 @@ var money=0,fire=0,firePrice=0.5,decisionLevel=0,decisionCost=10,upgradeFirePric
 
 // When Buy Shop button is pressed at start of the game, this triggers.
 function buyShop() {
-    var loanChoice = prompt("Oh! It Does Not Look Like You Have Any Money! Here, I'll give you a loan! Is 1000 okay, or would you like 50000?");
+    var start = prompt("Oh! It Does Not Look Like You Have Any Money! Here, I'll give you a loan! Is 1000 okay, or would you like 50000?");
     //checks what the user said
-    if(loanChoice === "1000"){
-        var loanChoice2 = prompt("Great! And When Would You Like To Pay Off The Loan? ASAP or Never?");
-        if(loanChoice2 === "Asap"){
-            alert("OK Then! Let's Get Started!");
+    if(start === "1000"){
+        alert("Great!");
+alert("OK Then! Let's Get Started!");
             document.getElementById("buyShop").className += " hidden";
             document.getElementById("background").className = "whiteBackground";
             document.getElementById("getFire").className = "";
@@ -18,9 +17,6 @@ function buyShop() {
             document.getElementById("decisionUpgrade").className = "";
             return;
         }
-        if(loanChoice2 === "Never"){
-            alert("ERROR! You Must Upgrade Your Decision Making Skills Before You Can Do This!");
-            return;
         }
         //If user typed something not expected.
         else{
@@ -28,13 +24,6 @@ function buyShop() {
             return;
         }
     }
-    if(loanChoice === "50000"){
-        alert("ERROR! You Must Upgrade Your Decision Making Skills Before You Can Do This!");
-    }
-    else{
-        alert("That Was Not An Option! Please Try Again!");
-    }
-}
 
 //Adds firePerClick to fire.
 function getFire(){
