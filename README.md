@@ -1,9 +1,8 @@
 # Incendium
 
-Developed and Coded by Sparticle999
+original Developed and Coded by Sparticle999
 
- [sparticle's](http://sparticle999.github.io/Minergy2/) ,
- [my version](http://owenm05.github.io/Incendium/)
+[link](http://owenm05.github.io/Incendium/)
 
 
 Suggestions and pull requests greatly appreciated
